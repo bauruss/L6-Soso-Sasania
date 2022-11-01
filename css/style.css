@@ -1,0 +1,16 @@
+.general-box {
+    position: relative;
+}
+.general1 {
+    width: 1310px;
+    height: 650px;
+}
+.ball {
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+.ball1 {
+    width: 100px;
+    height: 100px;
+}
