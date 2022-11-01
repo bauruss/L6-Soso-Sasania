@@ -9,6 +9,7 @@
     top: 200px;
     left: 200px;
     position: absolute;
+    animation: ball 2s infinite;
 }
 .ball1 {
     width: 100px;
@@ -17,7 +18,8 @@
 .ball-2 {
     top: 200px;
     right: 200px;
-    position: absolute
+    position: absolute;
+    animation: ball 2s infinite;
 }
 .ball2 {
     width: 100px;
@@ -27,8 +29,24 @@
     top: 250px;
     left: 520px;
     position: absolute;
+    animation: goolkeeper 10s 5 alternate;
 }
 .mekare1 {
     width: 300px;
     height: 300px;
+}
+
+/* Started keyframes  */
+@keyframes goolkeeper {
+    0% {left: 520px; }
+    100% {left: 200px; }
+}
+
+@keyframes ball {
+    0% {transform: rotate(0deg);}
+    25% { transform: rotate(45deg);}
+    50% {transform: rotate(90deg);}
+    75% {transform: rotate(180deg);}
+    100% {transform: rotate(0deg);}
+
 }
